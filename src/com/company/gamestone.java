@@ -70,7 +70,7 @@ public class gamestone {
             else {
                 System.out.println("Please eneter valid input");
             }
-
+//its if condition
                 if (ans==1){
                     System.out.println("YUPP !! you win you enter, "+user+" and computre value is "+comp);
                 }
@@ -80,7 +80,7 @@ public class gamestone {
                 else if (ans==2){
                     System.out.println("ohh!! it's drow you enter, "+user+" and computre value is "+comp);
                 }
-
+//play now or not??
             System.out.println("do you want to play y/n");
             chack=sc.next();
             if (!chack.equalsIgnoreCase("y") && !chack.equalsIgnoreCase("n"))
